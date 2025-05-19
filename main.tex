@@ -1,0 +1,64 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.85]{geometry}
+
+\name{Jon-Erik}{Akashi}
+\phone[mobile]{+81-80-2330-8637}
+\email{jonerikakashi@gmail.com}
+\social[github]{narakusdemon88}
+\social[linkedin]{jonerikakashi}
+
+\begin{document}
+
+\makecvtitle
+
+\section{Skills}
+\cvitem{Languages}{Python, SQL}
+\cvitem{Big Data}{PySpark, Pandas, NumPy, Scikit-learn, PyTorch, NLTK}
+\cvitem{Cloud Platforms}{AWS (EC2, Lambda, Redshift, S3, EMR, Quicksight), GCP}
+\cvitem{Technologies}{Airflow, Jupyter, Flask, Selenium, Beautiful Soup}
+
+\section{Professional Experience}
+
+\cventry{Jan 2024 -- Present}{Data Engineer}{Amazon Japan}{Tokyo, JP}{}{
+\begin{itemize}
+  \item Maintain and monitor data pipelines via Airflow for Japan Operations Finance; investigate upstream issues, manage stakeholder tickets, and ensure accurate data delivery.
+  \item Led migration of AMET region pipelines from local computing to Amazon internal tools (EDX for ingestion, Cradle for processing), improving scalability and reducing operational complexity.
+  \item Replaced a legacy internal data upload tool with a template- and approval-based system, enhancing validation and significantly reducing manual entry errors.
+  \item Collaborate closely with Operations Finance stakeholders to develop Quicksight dashboards; lead UAT cycles and incorporate feedback to ensure insights align with business needs.
+\end{itemize}}
+
+\cventry{Oct 2020 -- Dec 2023}{Lead Generation Developer}{Amazon Japan}{Tokyo, JP}{}{
+\begin{itemize}
+  \item Designed and implemented an automated lead generation system that extracted item-level data from competitor sites (Rakuten, Yahoo Japan), identifying ASIN and price-parity opportunities.
+  \item Designed scalable web crawlers and integrated AWS Recognition to enrich seller data through image analysis, enabling accurate lead classification and assignment.
+  \item Developed a high-accuracy (90\%+) heuristic model to classify brand vs. reseller sellers, improving targeting efficiency for account managers.
+\end{itemize}}
+
+\cventry{Mar 2018 -- Sept 2020}{Business Intelligence Engineer}{Rakuten}{Tokyo, JP}{}{
+\begin{itemize}
+  \item Acted as technical PoC for Japanese insurance clients; presented weekly analytics and KPI progress.
+  \item Built ML-powered dashboards to reduce manual reporting time and enhance operations.
+  \item Used GCP (BigQuery) to automate ad generation, reducing ad creation time by 95\%.
+  \item Mentored and onboarded new engineers, assigning tasks and guiding technical growth.
+\end{itemize}}
+
+\cventry{Oct 2014 -- Feb 2018}{Software Engineer}{Rakuten}{Tokyo, JP}{}{
+\begin{itemize}
+  \item Built internal web tools and monitoring dashboards to streamline troubleshooting and client support.
+  \item Automated operational tasks using Python and MySQL across business teams.
+\end{itemize}}
+
+\cventry{Aug 2012 -- Sept 2014}{Leadership Development Program}{Dell Inc.}{Austin, TX, USA}{}{
+\begin{itemize}
+  \item Completed rotations in sales, customer sentiment analysis, and customer segmentation.
+\end{itemize}}
+
+\section{Education}
+\cventry{Jan 2022 -- Dec 2024}{Master of Science in Computer Science}{Georgia Institute of Technology}{Atlanta, GA}{}{}
+\cventry{Sep 2008 -- Jun 2012}{Bachelor of Science in Economics}{University of Oregon}{Eugene, OR}{}{}
+
+\end{document}
